@@ -68,7 +68,7 @@ let exit = await inquirer.prompt({
 
     type: "confirm",
     name: "exit",
-    message: chalk.magenta.bold(`For Exit Please Enter "No",For Resume Enter "Y"`),
+    message: chalk.magenta.bold(`For "Exit" Please Enter "No",For "Continue" Enter "Y"`),
     default: false,
 });
 condition = exit.exit;
